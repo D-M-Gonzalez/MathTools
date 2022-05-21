@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./public/css/reset.css" rel="stylesheet">
+    <link href="./public/css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.4/dist/sweetalert2.all.min.js"></script>
+    <link href="./public/css/swal.css" rel="stylesheet">
+    <link href="./assets/fontawesome/css/all.css" rel="stylesheet">
+    <title>MathTools</title>
+</head>
+<body>
+    <div id="Main">
+        <div id="t10">
+            <div id="main_drawer_button">
+                <i class="fas fa-list fa-2xl"></i>
+                <div id="main_drawer">
+                    <ul>
+                        <li><a href="./index.html">MathTools</a></li>
+                        <li><a href="./help.html">Ayuda!</a></li>
+                        <li><a href="./aboutme.html">Acerca del Autor</a></li>
+                    </ul>
+                </div>
+            </div>     
+            <div id="t21">
+                <p>Ʃ</p>
+            </div>
+            <div id="t22">
+                <p id="text1">Math Tools</p>
+                <p id="text2">Una herramienta simple para realizar tus cálculos</p>              
+            </div>    
+        </div>
+        <div id="help">
+            <h1>¿Cómo usar esta herramienta?</h1>
+            <p>MathTools es una calculadora especialmente diseñada para devolvernos el paso a paso de la resolución.</p>
+            <p>Para utilizarla uno escribe directamente en pantalla lo que quiera calcular, pero respetando ciertas reglas:</p>
+            <ul>
+                <li>Las operaciones se escriben con los símbolos + para la suma, - para la resta, * para la multiplicación, / para la división y ^ para las potencias/raices</li>
+                <li>Todas las operaciones se deben escribir, no puede haber operaciones implícitas como sucede a veces que uno no pone la multiplicación previo a un paréntesis</li>
+                <li>La separación en términos se realiza automáticamente, aún así, es posible separar utilizando paréntesis, corchetes y llaves</li>
+                <li>Los paréntesis (), corchetes [] y llaves {} deben ir de a pares, en caso de que no se cierren o alguno no este de a pares la calculadora devolverá un error</li>
+                <li>Siempre debe haber una operación antes y despues de un término separado por los mismos de arriba</li>
+                <li>Una vez terminado, se presiona el símbolo = marcado en celeste para realizar el cálculo</li>
+                <li>En caso de no encontrar un símbolo o no tenerlo en el teclado, hay un teclado manual debajo de la zona de escritura donde se puede ingresar manualmente</li>
+            </ul>
+            <p>Además de los calculos, en la sección izquierda se pueden observar ejemplos que se pueden utilizar copiando o presionando el símbolo = en cada uno de los ejemplos</p>
+            <p>Del lado derecho de la zona de cálculo tenemos un historial donde se graban cada uno de los cálculos válidos que realizamos, esta misma se puede volver a utilizar presionando
+                el símbolo = o podemos borrar alguno presionando la X.
+            </p>
+            <p>También se puede eliminar todo el historial presionando en limpiar.</p>
+        </div>     
+    </div>    
+</body>
+</html>

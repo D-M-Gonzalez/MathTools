@@ -1,0 +1,51 @@
+{
+    "opCons" : 
+        {
+            "title":"Algo salió mal...",
+            "text":"¡No puede haber 2 operadores consecutivos!",
+            "ayuda":"Prueba eliminando el operador señalado."
+        }
+    ,
+    "opAntesPar" : 
+        {
+            "title":"Algo salió mal...",
+            "text":"¡No puede haber un operador antes de un cierre de paréntesis!",
+            "ayuda":"Prueba eliminando el operador encontrado antes del cierre de paréntesis."
+        }
+    ,
+    "numAntesPar" : 
+        {
+            "title":"Algo salió mal...",
+            "text":"¡No puede haber un número antes de un paréntesis!",
+            "ayuda":"Prueba agregando un operador luego del número señalado."
+        }
+    ,
+    "numDpsPar" : 
+        {
+            "title":"Algo salió mal...",
+            "text":"¡No puede haber un número despues de un paréntesis!",
+            "ayuda":"Prueba agregando un operador luego del paréntesis señalado."
+        }
+    ,
+    "invChar" : 
+        {
+            "title":"Algo salió mal...",
+            "text":"¡Se han ingresado caracteres inválidos!",
+            "ayuda":"Prueba eliminando el símbolo señalado como incorrecto. Solo se admiten números, operadores ( + - * / ^ ), paréntesis, corchetes y llaves."
+        }
+    ,
+    "missPar" : 
+        {
+            "title":"Algo salió mal...",
+            "text":"¡Falta un paréntesis!",
+            "ayuda":"Cuenta la cantidad de paréntesis, corchetes o llaves, siempre tienen que ser par."
+        }
+    ,
+    "ingIgual" : 
+        {
+            "title":"Revisa tu cálculo",
+            "text":"Esta APP no está preparada para interpretar igualdades, por lo que no tomará en cuenta lo ingresado luego del símbolo igual",
+            "ayuda":"Revisa que no necesites nada luego del símbolo igual."
+        }
+    
+}
